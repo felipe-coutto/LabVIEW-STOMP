@@ -1,0 +1,4 @@
+789000 - Error parsing STOMP message
+789001 - STOMP Error: <error_msg_body>
+789002 - Unexpected message
+789003 - Header not found
