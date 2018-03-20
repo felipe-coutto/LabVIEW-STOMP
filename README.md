@@ -2,10 +2,15 @@
 LabVIEW native STOMP 1.2 protocol client implementation
 
 Work in progress for a native STOMP Client implementation in LabVIEW
-- Doesn't require shared libraries
-- Runs on Real time controllers
-- Allows for multiple connections and asynchronous messaging
+Features:
+- Platform independent
+- Runs on Real time controllers (Linux, VxWorks, Pharlap, etc)
+- Asynchronous messaging
+- Automatic connection maintenance
 
-Missing features:
-- Username and password authentication support
-- Transaction support
+TO-DO:
+- Username and password authentication
+- Transaction
+- Heart-beats
+- Timeout parametrization
+- Send failure recovery
